@@ -16,4 +16,6 @@ You can open Langfuse UI here:
     email: [ADMIN_EMAIL]
     password: [ADMIN_PASSWORD]
 
-- https://github.com/langfuse/langfuse
+### Documentation
+
+For more information, refer to the https://langfuse.com/docs
