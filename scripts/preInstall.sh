@@ -23,13 +23,3 @@ ENCRYPTION_KEY=$(openssl rand -hex 32)
 cat << EOT >> ./.env
 ENCRYPTION_KEY=${ENCRYPTION_KEY}
 EOT
-
-
-# Create User
-curl -X POST "https://${LANGFUSE_WEB_UI}/api/auth/signup" \
--H "Content-Type: application/json" \
--d '{
-    "name": "'"$ADMIN_EMAIL"'",
-    "email": "'"$ADMIN_EMAIL"'",
-    "password": "'"$ADMIN_PASSWORD"'"
-}'
