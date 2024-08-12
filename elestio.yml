@@ -22,6 +22,8 @@ environments:
     value: "[EMAIL]"
   - key: "ADMIN_PASSWORD"
     value: "random_password"
+  - key: LANGFUSE_WEB_UI
+    value: "[CI_CD_DOMAIN]"
   - key: "NEXTAUTH_URL"
     value: "https://[CI_CD_DOMAIN]"
   - key: "POSTGRES_HOST"

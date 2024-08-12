@@ -26,7 +26,7 @@ EOT
 
 
 # Create User
-curl -X POST https://langfuse-saga-u353.vm.elestio.app/api/auth/signup \
+curl -X POST "https://${LANGFUSE_WEB_UI}/api/auth/signup" \
 -H "Content-Type: application/json" \
 -d '{
     "name": "'"$ADMIN_EMAIL"'",
