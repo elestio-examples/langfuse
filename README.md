@@ -1,4 +1,4 @@
-# Cerbos CI/CD pipeline
+# Langfuse CI/CD pipeline
 
 <a href="https://dash.elest.io/deploy?source=cicd&social=dockerCompose&url=https://github.com/elestio-examples/langfuse"><img src="deploy-on-elestio.png" alt="Deploy on Elest.io" width="180px" /></a>
 
