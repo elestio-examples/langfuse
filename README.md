@@ -4,7 +4,7 @@
 
 Deploy Langfuse server with CI/CD on Elestio
 
-<img src="langfuse.png" style='width: 30%;'/>
+<img src="langfuse.png" style='width: 60%;'/>
 <br/>
 <br/>
 
