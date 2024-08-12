@@ -18,6 +18,8 @@ ports:
 environments:
   - key: "SOFTWARE_VERSION_TAG"
     value: "latest"
+  - key: "ADMIN_EMAIL"
+    value: "[EMAIL]"
   - key: "ADMIN_PASSWORD"
     value: "random_password"
   - key: "NEXTAUTH_URL"
@@ -69,8 +71,8 @@ lifeCycleConfig:
 webUI:
   - url: "https://[CI_CD_DOMAIN]"
     label: "Langfuse UI"
-    # login: "root"
-    # password: "[ADMIN_PASSWORD]"
+    login: "[ADMIN_EMAIL]"
+    password: "[ADMIN_PASSWORD]"
   - url: "https://[CI_CD_DOMAIN]:33374"
     label: "pgAdmin"
     login: "[ADMIN_EMAIL]"

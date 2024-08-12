@@ -13,6 +13,7 @@ Deploy Langfuse server with CI/CD on Elestio
 You can open Langfuse UI here:
 
     URL: https://[CI_CD_DOMAIN]
+    email: [ADMIN_EMAIL]
     password: [ADMIN_PASSWORD]
 
 - https://github.com/langfuse/langfuse
