@@ -1,6 +1,11 @@
 #set env vars
 set -o allexport; source .env; set +o allexport;
 
+mkdir -p ./langfuse_clickhouse_data
+mkdir -p ./langfuse_clickhouse_logs
+chmod -R 777 ./langfuse_clickhouse_data
+chmod -R 777 ./langfuse_clickhouse_logs
+
 cat <<EOT > ./servers.json
 {
     "Servers": {
