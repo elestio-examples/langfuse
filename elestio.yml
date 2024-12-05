@@ -57,7 +57,7 @@ environments:
   - key: "SALT"
     value: "random_password"
   - key: "CLICKHOUSE_USER"
-    value: "root"
+    value: "clickhouse"
   - key: "CLICKHOUSE_PASSWORD"
     value: "random_password"
   - key: "MINIO_ROOT_USER"
