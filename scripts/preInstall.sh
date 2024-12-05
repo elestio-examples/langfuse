@@ -26,5 +26,6 @@ EOT
 ENCRYPTION_KEY=$(openssl rand -hex 32)
 
 cat << EOT >> ./.env
+
 ENCRYPTION_KEY=${ENCRYPTION_KEY}
 EOT
