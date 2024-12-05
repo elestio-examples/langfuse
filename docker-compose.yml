@@ -1,6 +1,6 @@
 services:
   langfuse-worker:
-    image: langfuse/langfuse-worker:main
+    image: langfuse/langfuse-worker:${SOFTWARE_VERSION_TAG}
     restart: always
     depends_on: &langfuse-depends-on
       postgres:
