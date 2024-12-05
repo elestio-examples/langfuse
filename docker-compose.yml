@@ -151,6 +151,6 @@ services:
     ports:
       - "172.17.0.1:37629:8080"
     depends_on:
-      - db
+      - postgres
     volumes:
       - ./servers.json:/pgadmin4/servers.json
