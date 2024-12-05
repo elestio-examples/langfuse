@@ -27,7 +27,7 @@ environments:
   - key: "NEXTAUTH_URL"
     value: "https://[CI_CD_DOMAIN]"
   - key: "POSTGRES_HOST"
-    value: "db"
+    value: "postgres"
   - key: "POSTGRES_USER"
     value: "postgres"
   - key: "POSTGRES_PASSWORD"
