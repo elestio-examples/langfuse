@@ -16,6 +16,12 @@ You can open Langfuse UI here:
     email: [ADMIN_EMAIL]
     password: [ADMIN_PASSWORD]
 
+You can open pgAdmin here:
+
+    URL: https://[CI_CD_DOMAIN]:33374
+    email: [ADMIN_EMAIL]
+    password: [ADMIN_PASSWORD]
+
 ### Documentation
 
 For more information, refer to the https://langfuse.com/docs
